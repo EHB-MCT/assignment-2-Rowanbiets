@@ -69,8 +69,8 @@ Follow the [Conventional Commits](https://www.conventionalcommits.org/) standard
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-## Authors
-- [Your Name] (add your contact info or GitHub profile)
+## Author
+- Rowan Biets
 
 ---
 

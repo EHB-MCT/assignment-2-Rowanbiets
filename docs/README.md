@@ -5,7 +5,6 @@ This project aims to collect, analyze, and document data about sports activities
 
 ## Folder Structure
 ```
-sports-activity-data/
 ├── data/
 │   ├── trends.csv                # Raw data collected from Google Trends
 │   └── cleaned_data.csv          # Processed and cleaned dataset
@@ -30,7 +29,6 @@ sports-activity-data/
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd sports-activity-data
    ```
 2. Create and activate a virtual environment:
    ```bash

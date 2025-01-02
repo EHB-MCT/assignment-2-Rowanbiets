@@ -1,16 +1,21 @@
-# Design Pattern: Repository Pattern
+# Progress Report
 
-## Waarom dit patroon?
-- Duidelijke scheiding tussen data-operaties en businesslogica.
-- Herbruikbaarheid van code door abstracties.
-- Eenvoudige testbaarheid via dependency injection.
+## Data Collection
+- Data verzameld via Google Trends API voor sportactiviteiten.
+- Data opgeslagen in 'trends.csv'.
 
-## Implementatie
-- Data wordt beheerd via een 'DataRepository'-klasse.
-- Validatie- en filtermethodes worden losgekoppeld in een aparte module.
+## Data Cleaning
+- Controle op lege waarden.
+- Ontbrekende data aangevuld met forward fill.
 
-## Voorbeeld code-structuur:
-- src/repositories/data_repository.py (verwerking en validatie van data)
-- src/services/data_service.py (analyse en aggregatie)
-- src/utils/validators.py (validatiefuncties)
+## Data Merging
+- Trends-data samengevoegd met aanvullende gegevens op basis van de datumkolom.
 
+## Data Visualization
+- Trends van verschillende activiteiten in een enkele grafiek geplot.
+- Opslag van grafieken in PNG-formaat in 'plots' map.
+
+## Next Steps
+- Verbeter interactie met visualisaties.
+- Voeg meer filters toe (bijv. per regio of tijdsperiode).
+- Controleer gebruiksvriendelijkheid en efficiëntie.

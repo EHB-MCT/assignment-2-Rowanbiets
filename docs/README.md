@@ -1,20 +1,27 @@
 # Sports Activity Data Project
 
 ## Project Overview
-This project aims to collect, analyze, and document data about sports activities using public data sources. The data will be processed and visualized to uncover trends and provide insights.
+This project collects, analyzes, and visualizes sports activity data using public data sources such as Google Trends. The goal is to uncover trends, provide insights, and make data-driven decisions based on sports activity popularity.
 
 ## Folder Structure
 ```
 ├── data/
 │   ├── trends.csv                # Raw data collected from Google Trends
-│   └── cleaned_data.csv          # Processed and cleaned dataset
+│   ├── cleaned_data.csv          # Processed and cleaned dataset
+│   └── merged_data.csv           # Final merged dataset used for visualization
 ├── docs/
 │   ├── README.md                 # Overview and setup instructions (this file)
-│   └── process.md                # Documentation of data processing steps
+│   ├── dataflow.md               # Data flow documentation with diagrams
+│   ├── decisions.md              # Design decisions and assumptions
+│   └── design_patterns.md        # Explanation of design patterns used
+├── plots/
+│   └── sport_trends_comparison.png # Visualization output
 ├── src/
-│   ├── data_collection.py        # Script for collecting data
-│   └── data_analysis.py          # Script for analyzing data
+│   ├── data_processing.py        # Script for processing and validating data
+│   ├── visualization.py          # Script for visualizing data
+│   └── main.py                   # Main script to run the application
 ├── .gitignore                    # Files and directories to be ignored by Git
+├── requirements.txt              # Required Python packages
 └── LICENSE                       # Open-source license for the project
 ```
 
@@ -45,9 +52,17 @@ This project aims to collect, analyze, and document data about sports activities
    ```bash
    python src/data_collection.py
    ```
-2. Run the analysis script to process and visualize data:
+2. Process and validate the data:
    ```bash
-   python src/data_analysis.py
+   python src/data_processing.py
+   ```
+3. Visualize the data trends:
+   ```bash
+   python src/visualization.py
+   ```
+4. Alternatively, run the main script to execute all steps:
+   ```bash
+   python src/main.py
    ```
 
 ## Contributing
@@ -56,7 +71,7 @@ Feel free to contribute by creating issues, submitting pull requests, or suggest
 ### Git Workflow
 - **`main`**: Contains the stable version of the project.
 - **`develop`**: Main development branch.
-- **`feature/<feature-name>`**: Branch for new features.
+- **`feature/data-collection`**: Branch for new features.
 
 ### Commit Message Conventions
 Follow the [Conventional Commits](https://www.conventionalcommits.org/) standard:
@@ -71,4 +86,3 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 - Rowan Biets
 
 ---
-

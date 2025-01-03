@@ -1,27 +1,23 @@
 # Sports Activity Data Project
 
 ## Project Overview
-This project collects, analyzes, and visualizes sports activity data using public data sources such as Google Trends. The goal is to uncover trends, provide insights, and make data-driven decisions based on sports activity popularity.
+This project aims to collect, analyze, and document data about sports activities using public data sources. The data will be processed and visualized to uncover trends and provide insights.
 
 ## Folder Structure
 ```
 ├── data/
 │   ├── trends.csv                # Raw data collected from Google Trends
-│   ├── cleaned_data.csv          # Processed and cleaned dataset
-│   └── merged_data.csv           # Final merged dataset used for visualization
+│   └── cleaned_data.csv          # Processed and cleaned dataset
 ├── docs/
 │   ├── README.md                 # Overview and setup instructions (this file)
-│   ├── dataflow.md               # Data flow documentation with diagrams
-│   ├── decisions.md              # Design decisions and assumptions
-│   └── design_patterns.md        # Explanation of design patterns used
-├── plots/
-│   └── sport_trends_comparison.png # Visualization output
+│   └── process.md                # Documentation of data processing steps
 ├── src/
-│   ├── data_processing.py        # Script for processing and validating data
-│   ├── visualization.py          # Script for visualizing data
-│   └── main.py                   # Main script to run the application
+│   ├── data_processing.py        # Script for data processing
+│   ├── main.py                    # Main script for executing the project
+│   └── visualization.py           # Script for visualizing data
+├── plots/                        # Folder for storing generated plots
+├── requirements.txt              # List of required Python libraries
 ├── .gitignore                    # Files and directories to be ignored by Git
-├── requirements.txt              # Required Python packages
 └── LICENSE                       # Open-source license for the project
 ```
 
@@ -48,19 +44,7 @@ This project collects, analyzes, and visualizes sports activity data using publi
    ```
 
 ### Usage
-1. Run the data collection script to fetch data:
-   ```bash
-   python src/data_collection.py
-   ```
-2. Process and validate the data:
-   ```bash
-   python src/data_processing.py
-   ```
-3. Visualize the data trends:
-   ```bash
-   python src/visualization.py
-   ```
-4. Alternatively, run the main script to execute all steps:
+1. Run the main script to execute the data pipeline:
    ```bash
    python src/main.py
    ```
@@ -71,7 +55,7 @@ Feel free to contribute by creating issues, submitting pull requests, or suggest
 ### Git Workflow
 - **`main`**: Contains the stable version of the project.
 - **`develop`**: Main development branch.
-- **`feature/data-collection`**: Branch for new features.
+- **`feature/<feature-name>`**: Branch for new features.
 
 ### Commit Message Conventions
 Follow the [Conventional Commits](https://www.conventionalcommits.org/) standard:
@@ -79,10 +63,27 @@ Follow the [Conventional Commits](https://www.conventionalcommits.org/) standard
 - `fix`: Fixes a bug.
 - `chore`: Updates to configuration files, documentation, or other non-code elements.
 
+## Resources
+### Data Visualization in Python
+- [GeeksforGeeks Tutorial](https://www.geeksforgeeks.org/python-data-visualization-tutorial/?utm_source=chatgpt.com) - Comprehensive guide on Python data visualization libraries.
+- [Simplilearn Gids](https://www.simplilearn.com/tutorials/python-tutorial/data-visualization-in-python?utm_source=chatgpt.com) - Overview of different visualization techniques.
+- [MIT Tutorial](https://www.mit.edu/~amidi/teaching/data-science-tools/tutorial/data-visualization-with-python/?utm_source=chatgpt.com) - Advanced plotting and customization.
+- [DataCamp Track](https://www.datacamp.com/tracks/data-visualization-with-python?utm_source=chatgpt.com) - Practical learning path for visualization.
+
+### Python Project Structure
+- [The Hitchhiker's Guide to Python](https://docs.python-guide.org/writing/structure/?utm_source=chatgpt.com) - Best practices for organizing Python projects.
+- [Medium Artikel over Best Practices](https://medium.com/%40kuldeepkumawat195/best-practices-in-structuring-python-projects-c7232c9304b0?utm_source=chatgpt.com) - Improving readability and maintainability.
+- [ArjanCodes Blog](https://arjancodes.com/blog/organizing-python-code-with-packages-and-modules/?utm_source=chatgpt.com) - Organizing Python code effectively.
+
+### Version Control Best Practices
+- [HopHR Tutorial](https://www.hophr.com/tutorial-page/best-practices-version-control-python-projects-step-by-step-guide?utm_source=chatgpt.com) - Guidelines for Git workflows.
+
+### Video Tutorial
+- [Python Data Visualization Full Course](https://www.youtube.com/watch?v=q68Qundmans&utm_source=chatgpt.com) - Comprehensive course for data visualization.
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ## Author
 - Rowan Biets
-
 ---

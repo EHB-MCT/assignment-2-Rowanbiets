@@ -1,9 +1,8 @@
-import matplotlib.pyplot as plt
-
 # Standaardbibliotheken
+import matplotlib.pyplot as plt
 import os
 
-
+# Visualizering van de data  
 def plot_trends(data, output_path='plots/sport_trends_comparison.png'):
     """
     Visualiseer trends voor verschillende keywords en sla de grafiek op.

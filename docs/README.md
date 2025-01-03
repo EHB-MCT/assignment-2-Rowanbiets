@@ -55,7 +55,7 @@ Feel free to contribute by creating issues, submitting pull requests, or suggest
 ### Git Workflow
 - **`main`**: Contains the stable version of the project.
 - **`develop`**: Main development branch.
-- **`feature/<feature-name>`**: Branch for new features.
+- **`feature/data-collection`**: Branch for collecting the data and new features.
 
 ### Commit Message Conventions
 Follow the [Conventional Commits](https://www.conventionalcommits.org/) standard:

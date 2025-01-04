@@ -71,7 +71,7 @@ Follow the [Conventional Commits](https://www.conventionalcommits.org/) standard
 - `chore`: Updates to configuration files, documentation, or other non-code elements.
 
 ## Visual Aids
-![Data Flowchart](docs/images/data_pipeline_flowchart.png)
+![Data Flowchart](docs/dataflow_flowchart.png)
 
 ## Resources
 ### Data Visualization in Python

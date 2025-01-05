@@ -91,8 +91,16 @@ Follow the [Conventional Commits](https://www.conventionalcommits.org/) standard
 ### Video Tutorial
 - [Python Data Visualization Full Course](https://www.youtube.com/watch?v=q68Qundmans&utm_source=chatgpt.com) - Comprehensive course for data visualization.
 
+### Readme structure
+https://www.makeareadme.com/
+
 ### Chatgpt
 https://chatgpt.com/share/67798adc-0a18-8002-852a-0f4dc17457da - Hoe kan ik voor dit project de SOLID-principes beter toepassen?
+
+https://chatgpt.com/share/677af09e-ae64-8002-b2bc-43eb9f502366 - Conventies in commit messages.
+
+https://chatgpt.com/share/677af1c6-43e4-8002-83d7-bfb08c395035 - verbeterpunten aan de code 
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.

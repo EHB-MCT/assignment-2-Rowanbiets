@@ -101,6 +101,8 @@ https://chatgpt.com/share/677af09e-ae64-8002-b2bc-43eb9f502366 - Conventies in c
 
 https://chatgpt.com/share/677af1c6-43e4-8002-83d7-bfb08c395035 - verbeterpunten aan de code 
 
+https://chatgpt.com/share/689a4ced-8588-8002-aeae-95c16831249f - Hoe schrijf ik een REST API endpoint in Express om grondstoffen te kopen?
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
